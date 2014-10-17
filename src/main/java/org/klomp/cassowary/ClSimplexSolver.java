@@ -452,7 +452,7 @@ public class ClSimplexSolver extends ClTableau {
                 }
             }
         } else if (cn.isEditConstraint()) {
-            assert eVars != null : "eVars != null";
+//            assert eVars != null : "eVars != null";
             ClEditConstraint cnEdit = (ClEditConstraint) cn;
             ClVariable clv = cnEdit.variable();
             ClEditInfo cei = _editVarMap.get(clv);
