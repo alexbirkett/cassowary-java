@@ -21,7 +21,7 @@ publishing {
                 username project.hasProperty('mavenUsername') ? mavenUsername : null
                 password project.hasProperty('mavenPassword') ? mavenPassword : null
             }
-            url project.hasProperty('mavenUrl') ? mavenUrl : null
+            url project.hasProperty('mavenSnapshotsUrl') ? mavenSnapshotsUrl : null
         }
     }
 }
