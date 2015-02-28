@@ -1,4 +1,8 @@
+
+As of February 2015 it's unclear if the ebolwidt port of cassowary is being maintained. 
+The pybee port has been active more recently https://github.com/pybee/cassowary-java
+
+
 This is a modified version of the port of the Cassowary Constraint Solving Toolkit version 0.60 to Java.
 
 Information about the original version of Cassowary can be found at: http://www.cs.washington.edu/research/constraints/cassowary
-
